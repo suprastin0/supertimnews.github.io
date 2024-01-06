@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
+body{
+    margin:0;
+    font-family: 'Bellota';
+}
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+    justify-content: space-between;
+    background-color:grey;
+
+}
+header a{
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    font-family: Bellota;
+    font-size: 36px;
+    font-weight: 850;
+}
+ul{
+    display: flex;
+
+}
+li{
+    list-style: none;
+}
+.pust{
+    width: 20%;
+}
+.logostr{
+    font-family: Bellota;
+    font-size: 36px;
+    font-weight: 700;
+}
+article a{
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+main{
+    background-color: #dbc396;
+}
+.txt{
+    font-family: Bellota;
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: rgb(168, 163, 163);
+    text-align: left;
+    width: 80%;
+    margin: 5%;
+
+}
+.razr{
+    height: 100px;
+    background-color: #dbc396;
+}
+.ss{
+    margin:5%;
+    background-color: grey;
+}
+
+footer{
+    background-color: rgb(168, 163, 163);
+    font-family: Bellota;
+    font-size: 26px;
+}
+.stat1{
+    background-color: #dbc396;
+    font-family: Bellota;
+    font-size: 26px;
+}
+.img1{
+    display: flex;
+
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  rgb(168, 163, 163);
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-shadow: 2px 3px 4px #313131;
+}
+.button:hover{
+    background-color: rgba(163, 161, 160, 0.3);
+    box-shadow: none;
+}
+.button1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  rgb(68, 145, 61);
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-shadow: 2px 3px 4px #313131;
+}
+.button1:hover{
+    background-color: rgba(41, 134, 57, 0.3);
+    box-shadow: none;
+}
+.txt1{
+    font-family: Bellota;
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 5%;
+
+}
+.statcolor{
+    background-color: #dbc396;
+}
+body{
+    background-color: #dbc396;
+}
