@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
 body{
     margin:0;
-    font-family: 'Bellota';
+    font-family: 'Montserrat';
 }
 header{
     height: 100px;
@@ -9,7 +9,7 @@ header{
     align-items: center;
     padding: 0 20%;
     justify-content: space-between;
-    background-color:grey;
+    background-color:gray;
 
 }
 header a{
@@ -20,7 +20,7 @@ header a{
     text-decoration: none;
 }
 .logo{
-    font-family: Bellota;
+    font-family: Montserrat;
     font-size: 36px;
     font-weight: 850;
 }
@@ -35,7 +35,7 @@ li{
     width: 20%;
 }
 .logostr{
-    font-family: Bellota;
+    font-family: Montserrat;
     font-size: 36px;
     font-weight: 700;
 }
@@ -47,10 +47,9 @@ article a{
     text-decoration: none;
 }
 main{
-    background-color: #dbc396;
+    background-color: #DCDCDC;
 }
 .txt{
-    font-family: Bellota;
     font-size: 26px;
     display: flex;
     justify-content: flex-start;
@@ -62,8 +61,7 @@ main{
 
 }
 .razr{
-    height: 100px;
-    background-color: #dbc396;
+    height: 200px;
 }
 .ss{
     margin:5%;
@@ -72,12 +70,10 @@ main{
 
 footer{
     background-color: rgb(168, 163, 163);
-    font-family: Bellota;
     font-size: 26px;
 }
 .stat1{
     background-color: #dbc396;
-    font-family: Bellota;
     font-size: 26px;
 }
 .img1{
@@ -117,7 +113,8 @@ footer{
     box-shadow: none;
 }
 .txt1{
-    font-family: Bellota;
+    border-radius: 30px;
+    background-color: #DCDCDC;
     font-size: 26px;
     display: flex;
     justify-content: flex-start;
@@ -127,14 +124,120 @@ footer{
 
 }
 .statcolor{
-    background-color: #dbc396;
+    background-color: #DCDCDC;
 }
 body{
-    background-color: #dbc396;
+    background-color: #DCDCDC;
 }
 .prest{
-    width: 50%;
-    height: 50%;
+    border-radius: 30px;
+    width: 100%;
+}
+figure{
+    width: 500px;
+    height: 500px;
+}
+/* планшеты горизонтально */
+@media (min-width: 992px) and (max-width: 1199px) {
+    header{padding:0 10%}
+ 
 }
 
+/* планшеты вертикально */
+@media (min-width: 768px) and (max-width: 1366px) {
+    header {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        padding: 0 20%;
+        justify-content: space-between;
+        background-color: grey;
+        flex-direction: column;
+    }
+}
+
+/* телефоны горизонтально */
+@media (max-width: 767px) {
+    header {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        padding: 0 20%;
+        justify-content: space-between;
+        background-color: grey;
+        flex-direction: column;
+    }
+    .button {
+        display: inline-block;
+        padding: 5px 5px;
+        background-color: rgb(168, 163, 163);
+        text-decoration: none;
+        border-radius: 10px;
+        color: #000000;
+        font-size: 10px;
+        font-weight: 800;
+        text-transform: uppercase;
+        box-shadow: 2px 3px 4px #313131;
+    }
+    header a {
+        margin-right: 20px;
+        font-weight: 500;
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+    }
+
+}
+
+/* телефоны вертикально */
+@media (max-width: 480px) {
+    header {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        padding: 0 20%;
+        justify-content: space-between;
+        background-color: grey;
+        flex-direction: column;
+    }
+    .button {
+        display: inline-block;
+        padding: 5px 5px;
+        background-color: rgb(168, 163, 163);
+        text-decoration: none;
+        border-radius: 10px;
+        color: #000000;
+        font-size: 8px;
+        font-weight: 800;
+        text-transform: uppercase;
+        box-shadow: 2px 3px 4px #313131;
+    }
+    header a {
+        margin-right: 20px;
+        font-weight: 500;
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+    }
+    .txt1{
+        border-radius: 30px;
+        background-color: #DCDCDC;
+        font-size: 16px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        text-align: left;
+        margin: 5%;
+    
+    }
+    .logostr{
+        font-family: Montserrat;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    
+    .razr{
+        height: 70px;
+    }
+}
 
